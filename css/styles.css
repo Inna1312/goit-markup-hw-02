@@ -4,6 +4,7 @@
     --main-btn-color:#FFFFFF;
     --second-btn-color:#4D5AE5;
     --main-text-color:#434455;    
+    --second-text-color:#2e2f42;
 }
 
 
@@ -38,8 +39,8 @@ body {
       color: #4d5ae5;
 }
 
-.count {
-    color: #2e2f42;
+.header-logo-count {
+    color:var(--second-text-color);
 }
 .header-list {   
 }
@@ -53,8 +54,11 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2E2F42;}
 
-.header-link:hover, .header-link:focus{
+.header-link:hover {
 color: #404bbf;
+}
+.header-link:focus{
+    color: #404bbf;   
 }
 .header-address {
 font-style: normal;
@@ -155,9 +159,9 @@ var(--second-title-color);
 text-transform: capitalize;
 }
 .team-list {
-background-color: #FFFFFF;
 }
 .team-item {
+background-color: #FFFFFF;
 }
 .team-item-title {
 font-weight: 500;
