@@ -5,6 +5,7 @@
     --second-btn-color:#4D5AE5;
     --main-text-color:#434455;    
     --second-text-color:#2e2f42;
+    --background-color-btn:#F4F4FD ;
 }
 
 
@@ -63,26 +64,16 @@ color: #404bbf;
 .header-address {
 font-style: normal;
 }
-.header-mail {
+.header-address-link {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
 
-.header-mail:hover, .header-mail:focus {
+.header-address-link:hover, .header-address-link:focus {
  color: #404bbf;
 }
- 
-.header-phone {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-}
-.header-phone:hover, .header-phone:focus {
-    color: #404bbf;
-   }
 
 /**-----------------------HERO------------------------*/
 .hero {
@@ -229,13 +220,20 @@ text-align: center;
 letter-spacing: 0.04em;
 color: var(--second-btn-color);
 cursor: pointer;
+background-color:var(--background-color-btn);
 }
 .portfolio-btn:is(:hover, :focus){
     color: #FFFFFF;
+    background-color: #404BBF;
     
 }
 .portfolio-list {
 }
+
+.portfolio-link {
+text-decoration: none;
+}
+
 .portfolio-item {
 }
 .portfolio-title {
