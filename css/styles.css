@@ -280,11 +280,10 @@ font-family: "Raleway", sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
-align-items: center;
 letter-spacing: 0.03em;    
 color: #4d5ae5;
 text-transform: uppercase; 
-margin-bottom: 16px;
+
 }
 .footer-logo-count {
 color: #f4f4fd;
@@ -297,6 +296,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
 margin-bottom: 0;
+margin-top: 16px;
 }
 
 /**--------------portfolio------------------------*/
@@ -306,7 +306,7 @@ margin-bottom: 0;
 }
 
 .portfolio-first-title{
-    display: none;
+    visability: hidden;
 }
 .portfolio-list-btn {
     margin-bottom: 72px;
@@ -344,6 +344,7 @@ border-color: transparent;
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
+    padding-right: 16px;
 }
 
 
